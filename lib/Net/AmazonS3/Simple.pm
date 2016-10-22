@@ -2,7 +2,7 @@ package Net::AmazonS3::Simple;
 use strict;
 use warnings;
 
-our $VERSION = '0.1.0';
+our $VERSION = '0.1.1';
 
 use AWS::Signature4;
 use LWP::UserAgent;
@@ -53,6 +53,8 @@ Net::AmazonS3::Simple - simple S3 client support signature v4
 =head1 SYNOPSIS
 
     my $s3 = Net::AmazonS3::Simple->new(
+        aws_access_key_id     => 'XXX',
+        aws_secret_access_key => 'YYY',
     );
 
     $s3->get_object($bucket, $key);

@@ -6,6 +6,8 @@ Net::AmazonS3::Simple - simple S3 client support signature v4
 # SYNOPSIS
 
     my $s3 = Net::AmazonS3::Simple->new(
+        aws_access_key_id     => 'XXX',
+        aws_secret_access_key => 'YYY',
     );
 
     $s3->get_object($bucket, $key);
