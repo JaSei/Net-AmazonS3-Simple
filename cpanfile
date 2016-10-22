@@ -12,3 +12,7 @@ on 'test' => sub {
     requires 'Test::Deep';
 };
 
+on 'develop' => sub {
+    requires 'Module::Build::Tiny';
+    requires 'Minilla';
+};
