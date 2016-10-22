@@ -1,5 +1,5 @@
 name = "Net-AmazonS3-Simple"
-# badges = ["travis"]
+badges = ["travis"]
 authority="cpan:JASEI"
 
 module_maker="ModuleBuildTiny"
