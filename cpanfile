@@ -4,6 +4,7 @@ requires 'HTTP::Request';
 requires 'Class::Tiny';
 requires 'AWS::Signature4';
 requires 'LWP::UserAgent';
+requires 'Path::Tiny', '0.056';
 
 on 'test' => sub {
     requires 'Test::More', '0.98';

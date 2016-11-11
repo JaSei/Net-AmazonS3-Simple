@@ -49,6 +49,7 @@
             "Class::Tiny" : "0",
             "HTTP::Request" : "0",
             "LWP::UserAgent" : "0",
+            "Path::Tiny" : "0.056",
             "perl" : "5.008001"
          }
       },
@@ -73,7 +74,7 @@
          "web" : "https://github.com/JaSei/Net-AmazonS3-Simple"
       }
    },
-   "version" : "0.1.1",
+   "version" : "0.1.2",
    "x_authority" : "cpan:JASEI",
    "x_contributors" : [
       "Jan Seidl <janseidl@volny.cz>"

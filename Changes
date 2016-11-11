@@ -2,6 +2,9 @@ Revision history for Perl extension Net-AmazonS3-Simple
 
 {{$NEXT}}
 
+0.1.2 2016-11-11T08:16:44Z
+    - fix missing require (Path::Tiny)
+
 0.1.1 2016-10-22T22:39:19Z
 
     - fix synopsis
