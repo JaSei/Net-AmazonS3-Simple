@@ -13,7 +13,7 @@ my $mock_memory = qclass(
 
         is_deeply(
             \%options,
-            {validate => 1, response => qobj()},
+            {validate => 0, response => qobj()},
             "$class->create_from_response parameters"
         );
 
@@ -28,7 +28,7 @@ my $mock_file = qclass(
 
         cmp_deeply(
             \%options,
-            {validate => 1, response => qobj(), file_path => re(qr/.+/)},
+            {validate => 0, response => qobj(), file_path => re(qr/.+/)},
             "$class->create_from_response parameters"
         );
 

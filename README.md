@@ -110,4 +110,4 @@ it under the same terms as Perl itself.
 
 # AUTHOR
 
-Jan Seidl <seidl@avast.com>
+Jan Seidl &lt;seidl@avast.com>
