@@ -2,7 +2,7 @@ package Net::AmazonS3::Simple;
 use strict;
 use warnings;
 
-our $VERSION = '0.1.2';
+our $VERSION = '0.2.0';
 
 use AWS::Signature4;
 use LWP::UserAgent;
@@ -17,7 +17,7 @@ use Class::Tiny qw(
   aws_secret_access_key
   ), {
     region      => 'us-west-1',
-    validate    => 1,
+    validate    => 0,
     auto_region => 1,
     secure      => 1,
     host        => 's3.amazonaws.com',

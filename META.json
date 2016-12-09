@@ -4,7 +4,7 @@
       "Jan Seidl <seidl@avast.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v3.0.4, CPAN::Meta::Converter version 2.150005",
+   "generated_by" : "Minilla/v3.0.0, CPAN::Meta::Converter version 2.142690",
    "license" : [
       "perl_5"
    ],
@@ -74,10 +74,9 @@
          "web" : "https://github.com/JaSei/Net-AmazonS3-Simple"
       }
    },
-   "version" : "0.1.2",
+   "version" : "0.2.0",
    "x_authority" : "cpan:JASEI",
    "x_contributors" : [
       "Jan Seidl <janseidl@volny.cz>"
-   ],
-   "x_serialization_backend" : "JSON::PP version 2.27400"
+   ]
 }
