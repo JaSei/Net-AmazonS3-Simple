@@ -28,7 +28,7 @@ my $mock_file = qclass(
 
         cmp_deeply(
             \%options,
-            {validate => 1, response => qobj(), file_path => re(qr/.+/)},
+            {validate => 1, response => obj_isa('Mock::Quick::Object'), file_path => re(qr/.+/)},
             "$class->create_from_response parameters"
         );
 

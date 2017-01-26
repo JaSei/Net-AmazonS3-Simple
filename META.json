@@ -74,7 +74,7 @@
          "web" : "https://github.com/JaSei/Net-AmazonS3-Simple"
       }
    },
-   "version" : "0.1.2",
+   "version" : "0.1.3",
    "x_authority" : "cpan:JASEI",
    "x_contributors" : [
       "Jan Seidl <janseidl@volny.cz>"
